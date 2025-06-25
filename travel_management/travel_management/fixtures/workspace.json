@@ -1,0 +1,28 @@
+[
+  {
+    "doctype": "Workspace",
+    "label": "Travel Management",
+    "module": "Travel Management",
+    "name": "Travel Management",
+    "public": 0,
+    "category": "Modules",
+    "content": [
+      {
+        "type": "doctype",
+        "name": "Itinerary"
+      },
+      {
+        "type": "doctype",
+        "name": "Traveler"
+      },
+      {
+        "type": "doctype",
+        "name": "Bus Trip"
+      },
+      {
+        "type": "doctype",
+        "name": "Hotel Room"
+      }
+    ]
+  }
+]
