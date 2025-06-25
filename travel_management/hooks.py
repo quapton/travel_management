@@ -18,7 +18,7 @@ add_to_apps_screen = [
 		"logo": "/assets/travel_management/travel.png",
 		"title": "Quapton Travel Management",
 		"route": "/travel_management",
-		"has_permission": "travel_management.api.permission.has_app_permission"
+		# "has_permission": "travel_management.api.permission.has_app_permission"
 	}
 ]
 fixtures = [
@@ -130,9 +130,9 @@ role_home_page = {
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
-has_permission = {
-	"Event": "frappe.desk.doctype.event.event.has_permission",
-}
+# has_permission = {
+# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+# }
 
 # Document Events
 # ---------------
