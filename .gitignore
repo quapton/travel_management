@@ -53,3 +53,17 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+__pycache__
+dev-dist
+tags
+node_modules
+travel_management/public/frontend
+frontend/yarn.lock
+travel_management/www/travel_management.html
+build
