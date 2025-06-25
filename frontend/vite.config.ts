@@ -13,7 +13,7 @@ export default defineConfig({
       lucideIcons: true,
       jinjaBootData: true,
       buildConfig: {
-        indexHtmlPath: '../crm/www/crm.html',
+        indexHtmlPath: '../travel_management/www/travel_management.html',
         emptyOutDir: true,
         sourcemap: true,
       },
@@ -27,36 +27,19 @@ export default defineConfig({
       },
       manifest: {
         display: 'standalone',
-        name: 'Frappe CRM',
-        short_name: 'Frappe CRM',
-        start_url: '/crm',
+        name: 'Travel Management',
+        short_name: 'Travel Management',
+        start_url: '/travel_management',
         description:
           'Modern & 100% Open-source CRM tool to supercharge your sales operations',
         icons: [
           {
-            src: '/assets/crm/manifest/manifest-icon-192.maskable.png',
+            src: '/assets/travel_management/manifest/manifest-icon-192.maskable.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any',
           },
-          {
-            src: '/assets/crm/manifest/manifest-icon-192.maskable.png',
-            sizes: '192x192',
-            type: 'image/png',
-            purpose: 'maskable',
-          },
-          {
-            src: '/assets/crm/manifest/manifest-icon-512.maskable.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any',
-          },
-          {
-            src: '/assets/crm/manifest/manifest-icon-512.maskable.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'maskable',
-          },
+          
         ],
       },
     }),

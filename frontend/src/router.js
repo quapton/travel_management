@@ -108,7 +108,7 @@ const handleMobileView = (componentName) => {
 }
 
 let router = createRouter({
-  history: createWebHistory('/crm'),
+  history: createWebHistory('/app/travel_management'),
   routes,
 })
 
@@ -136,7 +136,7 @@ router.beforeEach(async (to, from, next) => {
       next({ name: route_name, params: { viewType: type } })
     }
   } else if (!isLoggedIn) {
-    window.location.href = '/login?redirect-to=/crm'
+    window.location.href = '/login?redirect-to=/app/travel_managementrm'
   } else if (to.matched.length === 0) {
     next({ name: 'Invalid Page' })
   } else if (['Deal', 'Lead'].includes(to.name) && !to.hash) {

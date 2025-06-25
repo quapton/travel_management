@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/assets/travel_management/frontend/ && yarn copy-html-entry",
-    "copy-html-entry": "cp ../travel_management/frontend/index.html ../travel_management/www/travel_management.html",
+    "copy-html-entry": "cp ../travel_management/public/frontend/index.html ../travel_management/www/travel_management.html",
     "serve": "vite preview"
   },
   "dependencies": {
