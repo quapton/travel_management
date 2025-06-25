@@ -19,18 +19,6 @@ h1, h2, h3, h4, h5, h6, .modal-title {
     border: none !important;
 }
 
-/* Navbar */
-.navbar {
-    background-color: #720E9E !important;
-    color: white !important;
-}
-.navbar .navbar-nav,
-.navbar .navbar-brand,
-.navbar .navbar-text,
-.navbar .nav-link {
-    color: white !important;
-}
-
 /* Sidebar */
 .layout-side-section,
 .standard-sidebar {
