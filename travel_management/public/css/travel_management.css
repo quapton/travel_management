@@ -1,0 +1,65 @@
+/* Set your desired font globally, e.g., Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body, html, * {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Typography for headers */
+h1, h2, h3, h4, h5, h6, .modal-title {
+    font-weight: 600 !important;
+}
+
+/* Buttons */
+.btn, .btn-primary {
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    background-color: #720E9E !important;
+    color: white !important;
+    border: none !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #720E9E !important;
+    color: white !important;
+}
+.navbar .navbar-nav,
+.navbar .navbar-brand,
+.navbar .navbar-text,
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* Sidebar */
+.layout-side-section,
+.standard-sidebar {
+    background-color: #f3f0ff !important;
+}
+.standard-sidebar .sidebar-section {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Desk / Module Icons */
+.module-icon {
+    color: #720E9E !important;
+    background-color: #f3f0ff !important;
+}
+
+/* Form View */
+.form-section, .form-grid {
+    border-radius: 12px !important;
+    border: 1px solid #ddd !important;
+    padding: 12px !important;
+}
+
+/* List View Rows */
+.list-row {
+    font-size: 14px !important;
+    padding: 10px !important;
+}
+
+/* Background */
+.page-container, .main-section {
+    background-color: #ffffff !important;
+}

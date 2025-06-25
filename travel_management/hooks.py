@@ -4,40 +4,41 @@ app_publisher = "Quapton AI Solutions Pvt. Ltd."
 app_description = "Manage travel itineraries, bus trips, and hotel stays."
 app_email = "digvijay.singh@quapton.com"
 app_license = "mit"
-
+app_icon_url = "/assets/travel_management/images/travel.png"
+app_icon_route = "/travel_management"
 # Apps
 # ------------------
 
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "travel_management",
-# 		"logo": "/assets/travel_management/logo.png",
-# 		"title": "Quapton Travel Management",
-# 		"route": "/travel_management",
-# 		"has_permission": "travel_management.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "travel_management",
+		"logo": "/assets/travel_management/travel.png",
+		"title": "Quapton Travel Management",
+		"route": "/travel_management",
+		"has_permission": "travel_management.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/travel_management/css/travel_management.css"
-# app_include_js = "/assets/travel_management/js/travel_management.js"
+app_include_css = "/assets/travel_management/css/travel_management.css"
+app_include_js = "/assets/travel_management/js/travel_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/travel_management/css/travel_management.css"
-# web_include_js = "/assets/travel_management/js/travel_management.js"
+web_include_css = "/assets/travel_management/css/travel_management.css"
+web_include_js = "/assets/travel_management/js/travel_management.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "travel_management/public/scss/website"
 
 # include js, css files in header of web form
-# webform_include_js = {"doctype": "public/js/doctype.js"}
-# webform_include_css = {"doctype": "public/css/doctype.css"}
+webform_include_js = {"doctype": "public/js/doctype.js"}
+webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -51,7 +52,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "travel_management/public/icons.svg"
+app_include_icons = "travel_management/public/travel.png"
 
 # Home Pages
 # ----------
@@ -60,9 +61,9 @@ app_license = "mit"
 # home_page = "login"
 
 # website user home page (by Role)
-# role_home_page = {
-# 	"Role": "home_page"
-# }
+role_home_page = {
+	"Role": "home_page"
+}
 
 # Generators
 # ----------
@@ -124,9 +125,9 @@ app_license = "mit"
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
-# has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
-# }
+has_permission = {
+	"Event": "frappe.desk.doctype.event.event.has_permission",
+}
 
 # Document Events
 # ---------------
