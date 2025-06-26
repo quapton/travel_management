@@ -1,5 +1,5 @@
-import { createDialog as createFrappeDialog } from 'frappe-ui'
+import { useDialog } from 'frappe-ui'
 
 export function createDialog(options) {
-	return createFrappeDialog(options)
+	return useDialog().open(options)
 }
