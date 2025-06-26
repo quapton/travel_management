@@ -3,7 +3,7 @@ import json
 import os
 
 def execute():
-    path = os.path.join(os.path.dirname(__file__), "travel_management_workspace.json")
+    path = os.path.join(os.path.dirname(__file__), "travel_management.json")
     with open(path) as f:
         workspace = json.load(f)
 
