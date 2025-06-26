@@ -26,3 +26,39 @@ const routes = [
 		component: () => import('@/pages/Bookings.vue'),
 	},
 	{
+		path: '/settings',
+		name: 'Settings',
+		component: () => import('@/pages/Settings.vue'),
+	},
+]
+
+const router = createRouter({
+	history: createWebHistory('/travel_management'),
+	routes,
+})
+
+router.beforeEach(async (to, from, next) => {
+	const { userResource } = usersStore()
+	let { isLoggedIn } = sessionStore()
+	const { allowGuestAccess } = useSettings()
+
+	try {
+		if (isLoggedIn) {
+			await userResource.promise
+		}
+	} catch {
+		isLoggedIn = false
+	}
+
+	if (!isLoggedIn) {
+		await allowGuestAccess.promise
+		if (!allowGuestAccess.data) {
+			window.location.href = '/login'
+			return
+		}
+	}
+
+	return next()
+})
+
+export default router
