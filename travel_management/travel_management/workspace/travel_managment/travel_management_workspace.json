@@ -1,0 +1,51 @@
+{
+  "charts": [],
+  "content": "[{\"id\":\"section-travel\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>TRAVEL MANAGEMENT</b></span>\",\"col\":12}},{\"id\":\"shortcut-trips\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"shortcut-itineraries\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Itineraries\",\"col\":3}},{\"id\":\"shortcut-expenses\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Expenses\",\"col\":3}}]",
+  "creation": "2025-06-26 12:00:00",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "airplane",
+  "idx": 0,
+  "indicator_color": "",
+  "is_hidden": 0,
+  "label": "Travel Management",
+  "links": [],
+  "modified": "2025-06-26 12:00:00",
+  "modified_by": "Administrator",
+  "module": "Travel Management",
+  "name": "Travel Management",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [],
+  "sequence_id": 1,
+  "shortcuts": [
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Trips",
+      "link_to": "Trip",
+      "type": "DocType"
+    },
+    {
+      "color": "Cyan",
+      "doc_view": "List",
+      "label": "Itineraries",
+      "link_to": "Itinerary",
+      "type": "DocType"
+    },
+    {
+      "color": "Teal",
+      "doc_view": "List",
+      "label": "Travel Expenses",
+      "link_to": "Travel Expense",
+      "type": "DocType"
+    }
+  ],
+  "title": "Travel Management"
+}
