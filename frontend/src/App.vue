@@ -13,7 +13,7 @@
 import { FrappeUIProvider } from 'frappe-ui'
 import { Dialogs } from '@/utils/dialogs'
 import { computed, onUnmounted, ref, watch } from 'vue'
-import { useScreenSize } from '@/utils/composables'
+import { useScreenSize } from './utils/composables'
 import DesktopLayout from '@/components/DesktopLayout.vue'
 import MobileLayout from '@/components/MobileLayout.vue'
 import NoSidebarLayout from '@/components/NoSidebarLayout.vue'
@@ -21,7 +21,7 @@ import { usersStore } from '@/stores/user'
 import { useRouter } from 'vue-router'
 import { posthogSettings } from '@/telemetry'
 
-const screenSize = useScreenSize()
+const screenSize = { width: 1024 } 
 const router = useRouter()
 const noSidebar = ref(false)
 const { userResource } = usersStore()
