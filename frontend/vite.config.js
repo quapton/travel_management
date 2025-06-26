@@ -5,7 +5,6 @@ import path from 'path'
 import frappeui from 'frappe-ui/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     frappeui({
@@ -39,7 +38,6 @@ export default defineConfig({
             type: 'image/png',
             purpose: 'any',
           },
-         
         ],
       },
     }),
@@ -58,5 +56,10 @@ export default defineConfig({
       'prosemirror-view',
       'lowlight',
     ],
+  },
+  build: {
+    outDir: '../travel_management/public/frontend', // ⬅️ THIS IS NEEDED
+    emptyOutDir: true,
+    sourcemap: true,
   },
 })
