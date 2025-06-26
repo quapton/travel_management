@@ -6,8 +6,8 @@ app_email = "digvijay.singh@quapton.com"
 app_license = "mit"
 app_icon_url = "/assets/travel_management/images/travel.png"
 app_logo_url = "/assets/travel_management/images/travel.png"
-app_icon_route = "/app/travel_management"
-app_home = "/app/travel_management"
+app_icon_route = "/travel_management"
+app_home = "/travel_management"
 # Apps
 # ------------------
 
@@ -19,7 +19,7 @@ add_to_apps_screen = [
 		"name": "travel_management",
 		"logo": "/assets/travel_management/images/travel.png",
 		"title": "Travel Management",
-		"route": "/app/travel_management",
+		"route": "/travel_management",
 		# "has_permission": "travel_management.api.permission.has_app_permission"
 	}
 ]
