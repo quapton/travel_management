@@ -1,0 +1,40 @@
+{
+  "doctype": "DocType",
+  "name": "Trip Day Plan",
+  "module": "Travel Management",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "day_number",
+      "fieldtype": "Int",
+      "label": "Day Number"
+    },
+    {
+      "fieldname": "location",
+      "fieldtype": "Data",
+      "label": "Location"
+    },
+    {
+      "fieldname": "hotel",
+      "fieldtype": "Link",
+      "label": "Hotel",
+      "options": "Room"
+    },
+    {
+      "fieldname": "activity",
+      "fieldtype": "Text",
+      "label": "Activity"
+    },
+    {
+      "fieldname": "transport",
+      "fieldtype": "Select",
+      "label": "Transport",
+      "options": "Bus\nTrain\nCab"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Text",
+      "label": "Notes"
+    }
+  ]
+}

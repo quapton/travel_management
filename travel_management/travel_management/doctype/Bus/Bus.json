@@ -1,0 +1,23 @@
+{
+  "doctype": "DocType",
+  "name": "Bus",
+  "module": "Travel Management",
+  "fields": [
+    {
+      "fieldname": "bus_name",
+      "fieldtype": "Data",
+      "label": "Bus Name"
+    },
+    {
+      "fieldname": "total_seats",
+      "fieldtype": "Int",
+      "label": "Total Seats"
+    },
+    {
+      "fieldname": "seat_map",
+      "fieldtype": "Table",
+      "label": "Seat Map",
+      "options": "Bus Seat"
+    }
+  ]
+}

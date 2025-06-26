@@ -23,12 +23,12 @@ add_to_apps_screen = [
 		# "has_permission": "travel_management.api.permission.has_app_permission"
 	}
 ]
-fixtures = [
-    {"dt": "Workspace", "filters": [["name", "=", "Travel Management"]]},
-    {"dt": "Custom Field"},
-    {"dt": "Role"},
-    {"dt": "Role Profile"}
-]
+# fixtures = [
+#     {"dt": "Workspace", "filters": [["name", "=", "Travel Management"]]},
+#     {"dt": "Custom Field"},
+#     {"dt": "Role"},
+#     {"dt": "Role Profile"}
+# ]
 # Includes in <head>
 # ------------------
 

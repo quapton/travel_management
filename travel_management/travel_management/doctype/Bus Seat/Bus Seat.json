@@ -1,0 +1,24 @@
+{
+  "doctype": "DocType",
+  "name": "Bus Seat",
+  "module": "Travel Management",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "seat_number",
+      "fieldtype": "Data",
+      "label": "Seat Number"
+    },
+    {
+      "fieldname": "is_booked",
+      "fieldtype": "Check",
+      "label": "Is Booked"
+    },
+    {
+      "fieldname": "traveler",
+      "fieldtype": "Link",
+      "label": "Traveler",
+      "options": "Customer"
+    }
+  ]
+}

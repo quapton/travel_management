@@ -1,0 +1,25 @@
+{
+  "doctype": "DocType",
+  "name": "Room Allocation",
+  "module": "Travel Management",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "traveler",
+      "fieldtype": "Link",
+      "label": "Traveler",
+      "options": "Customer"
+    },
+    {
+      "fieldname": "gender",
+      "fieldtype": "Select",
+      "label": "Gender",
+      "options": "Male\nFemale\nOther"
+    },
+    {
+      "fieldname": "assigned_on",
+      "fieldtype": "Date",
+      "label": "Assigned On"
+    }
+  ]
+}

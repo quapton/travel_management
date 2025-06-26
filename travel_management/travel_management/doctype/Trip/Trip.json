@@ -1,0 +1,55 @@
+{
+  "doctype": "DocType",
+  "name": "Trip",
+  "module": "Travel Management",
+  "fields": [
+    {
+      "fieldname": "trip_name",
+      "fieldtype": "Data",
+      "label": "Trip Name"
+    },
+    {
+      "fieldname": "start_date",
+      "fieldtype": "Date",
+      "label": "Start Date"
+    },
+    {
+      "fieldname": "end_date",
+      "fieldtype": "Date",
+      "label": "End Date"
+    },
+    {
+      "fieldname": "bus",
+      "fieldtype": "Link",
+      "label": "Bus",
+      "options": "Bus"
+    },
+    {
+      "fieldname": "room_type",
+      "fieldtype": "Select",
+      "label": "Room Type",
+      "options": "Shared\nPrivate"
+    },
+    {
+      "fieldname": "total_seats",
+      "fieldtype": "Int",
+      "label": "Total Seats"
+    },
+    {
+      "fieldname": "available_seats",
+      "fieldtype": "Int",
+      "label": "Available Seats"
+    },
+    {
+      "fieldname": "price",
+      "fieldtype": "Currency",
+      "label": "Price"
+    },
+    {
+      "fieldname": "days",
+      "fieldtype": "Table",
+      "label": "Trip Day Plan",
+      "options": "Trip Day Plan"
+    }
+  ]
+}
