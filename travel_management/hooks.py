@@ -59,7 +59,7 @@ webform_include_css = {"doctype": "public/css/doctype.css"}
 # Svg Icons
 # ------------------
 # include app icons in desk
-app_include_icons = "travel_management/public/travel.png"
+app_include_icons = "/assets/travel_management/images/travel.png"
 
 # Home Pages
 # ----------
